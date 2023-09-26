@@ -1,3 +1,4 @@
+package Data;
 
 import DB.DbCustomer;
 import org.testng.annotations.DataProvider;
