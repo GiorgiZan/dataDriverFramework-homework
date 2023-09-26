@@ -1,3 +1,4 @@
+import Data.ProvidingData;
 import Steps.RegistartionPageSteps;
 import org.testng.annotations.Test;
 

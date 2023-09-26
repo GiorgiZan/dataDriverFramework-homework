@@ -8,7 +8,7 @@ import java.util.Properties;
 public class DbConnection {
     public static Connection getConnection(){
         Connection connection;
-        try (FileInputStream f = new FileInputStream("C:\\Users\\user\\Desktop\\dataDriverFramework-homework\\src\\main\\resources\\db.properties")){
+        try (FileInputStream f = new FileInputStream("src\\main\\resources\\db.properties")){
             Properties properties = new Properties();
             properties.load(f);
             String url = properties.getProperty("url");
